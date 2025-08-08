@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomakh&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Warang+Citi&family=Playwrite+HU:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sigmar&display=swap');
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: outfit;
+}
+
+body{
+    min-height: 100vh;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.app{
+    width: 80%;
+    margin: auto;
+}

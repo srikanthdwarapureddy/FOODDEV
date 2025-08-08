@@ -1,0 +1,111 @@
+.navbar{
+    padding: 20px 0px ;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 150px;
+    height:50px;
+    font-size: 10px;
+    color: tomato;
+   
+
+
+   
+
+}
+.newlo{
+    width: 170px;
+    height:50px;
+    font-size: 35px;
+    color: tomato;
+    margin-top: 15px;
+
+
+}
+.navbar-manu{
+    margin-top: 20px;
+    display: flex;
+    list-style: none;
+    color: #495549;
+    gap: 20px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+}
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    cursor: pointer;
+
+}
+.navbar-button{
+   background: transparent;
+   font-size: 16px;
+   color: #495549;
+   border: 1px solid tomato;
+   padding: 10px 30px;
+   border-radius: 50px;
+   cursor: pointer;
+}
+.navbar-left{
+    position: relative;
+    cursor: pointer;
+}
+.navbar-left .Dot{
+    position: absolute;
+    min-height: 10px;
+    min-width: 10px;
+    border-radius: 5px;
+    background-color: tomato;
+    top: -8px;
+    right: -8px;
+    
+}
+
+.user-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.user-name {
+    color: #495549;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.profile-link {
+    color: #495549;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.profile-link:hover {
+    background-color: #f8f9fa;
+    color: tomato;
+}
+
+.logout-btn {
+    background-color: #ff6b6b;
+    color: white;
+    border: 1px solid #ff6b6b;
+    transition: all 0.3s ease;
+}
+
+.logout-btn:hover {
+    background-color: #ff5252;
+    border-color: #ff5252;
+}
+
